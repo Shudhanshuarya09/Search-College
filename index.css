@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.Title {
+  display: flex;
+  gap: 1rem;
+}
+.logo img {
+  height: 80px;
+}
+.title {
+  font-weight: 700;
+  font-size:30px;
+  word-spacing: 1px;
+  padding: 0%;
+  color: darkgoldenrod;
+}
+
+.top-nav {
+  display: flex;
+  /* align-items: center; */
+  gap: 9rem
+  ;
+}
+
+.top-nav input {
+  margin: 0 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 400px;
+}
+.explore-more {
+
+}
+
+.explore-more, .counselling-btn, .menu-btn {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.counselling-btn {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.menu-btn {
+  border: none;
+  background: transparent;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.explore-btn {
+  padding: 15px 30px;
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.explore-btn:hover {
+  background-color: #005bb5;
+}
