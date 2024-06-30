@@ -78,7 +78,7 @@ input{
 }
 
 .hero {
-  position: relative;
+  /* position: relative; */
   text-align: center;
   color: white;
   font-size: 3rem;
@@ -87,13 +87,14 @@ input{
 
 .hero img {
   width: 100%;
-  height: auto;
+  height: 50%;
+  
 }
 
 .hero-text {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 70%;
+  left: 25%;
   transform: translate(-50%, -50%);
   
 }
@@ -115,4 +116,53 @@ input{
 
 .explore-btn:hover {
   background-color: #005bb5;
+}body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.top-cities {
+  text-align: center;
+  padding: 20px;
+}
+
+.top-cities h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.city-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.city {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  width: 120px;
+  transition: transform 0.2s;
+}
+
+.city:hover {
+  transform: scale(1.05);
+}
+
+.city img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.city p {
+  font-size: 16px;
+  margin: 0;
 }
