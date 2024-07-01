@@ -272,3 +272,59 @@ p {
   margin: 0;
   color: #777777;
 }
+
+.college-list {
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-left: 8rem;
+}
+.buttons{
+  display: flex;
+  gap: 4rem;
+  margin-left: 180px;
+}
+
+.btn1{
+font-size: 2rem;
+padding: 30px;
+border-radius: 20px;
+}
+.btn2{
+  font-size: 2rem;
+  padding: 30px;
+  border-radius: 20px;
+  }
+  .btn3{
+    font-size: 2rem;
+    padding: 30px;
+    border-radius: 20px;
+    }
+    .btn4{
+      font-size: 2rem;
+      padding: 30px;
+      border-radius: 20px;
+      }
+      .btn5{
+        font-size: 2rem;
+        padding: 30px;
+        border-radius: 20px;
+        }
+        .btn6{
+          font-size: 2rem;
+          padding: 30px;
+          border-radius: 20px;
+          }
+          .btn7{
+            font-size: 2rem;
+            padding: 30px;
+            border-radius: 20px;
+            }
+            .btn8{
+              font-size: 2rem;
+              padding: 30px;
+              border-radius: 20px;
+              }.btn9{
+                font-size: 2rem;
+                padding: 30px;
+                border-radius: 20px;
+                }
