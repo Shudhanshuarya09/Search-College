@@ -21,11 +21,12 @@ header {
   height: 80px;
 }
 .title {
-  font-weight: 700;
+  font-weight: 800;
   font-size:30px;
-  word-spacing: 1px;
+  word-spacing: 6px;
   padding: 0%;
-  color: darkgoldenrod;
+  color: yellow;
+  text-shadow: 1px 1px 10px rg(26, 26, 25);
 }
 
 .top-nav {
@@ -136,6 +137,7 @@ input{
   margin-bottom: 20px;
   color: yellow;
   text-shadow: 1px 1px 10px #000;
+  margin-left: 65px;
 
   
 }
@@ -299,67 +301,15 @@ p {
   
 }
 
-.btn1{
+.btn{
 font-size: 2rem;
 padding: 30px;
 border-radius: 40px;
 border: 3px solid #151414;
 font-weight: 600;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.btn2{
-  font-size: 2rem;
-  padding: 30px;
-  border-radius: 40px;
-  border: 3px solid #151414;
-  font-weight: 600;
-  }
-  .btn3{
-    font-size: 2rem;
-    padding: 30px;
-    border-radius: 40px;
-    border: 3px solid #151414;
-    font-weight: 600;
-    }
-    .btn4{
-      font-size: 2rem;
-      padding: 30px;
-      border-radius: 40px;
-      border: 3px solid #151414;
-      font-weight: 600;
-      }
-      .btn5{
-        font-size: 2rem;
-        padding: 30px;
-        border-radius: 40px;
-        border: 3px solid #151414;
-        font-weight: 600;
-        }
-        .btn6{
-          font-size: 2rem;
-          padding: 30px;
-          border-radius: 40px;
-          border: 3px solid #151414;
-          font-weight: 600;
-          }
-          .btn7{
-            font-size: 2rem;
-            padding: 30px;
-            border: 3px solid #151414;
-            border-radius: 40px;
-            font-weight: 600;
-            }
-            .btn8{
-              font-size: 2rem;
-              padding: 30px;
-              border-radius: 40px;
-              border: 3px solid #151414;
-              font-weight: 600;
-              }.btn9{
-                font-size: 2rem;
-                padding: 30px;
-                border-radius: 40px;
-                border: 3px solid #151414;
-                font-weight: 600;
-                
-                }
-                
+.btn:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
