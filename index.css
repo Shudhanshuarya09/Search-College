@@ -149,6 +149,7 @@ input{
   gap: 6.5rem;
   border-color: #000;
   border-width: 5px;
+  
 }
 
 .city {
@@ -164,6 +165,7 @@ input{
   width: 200px;
   height: 240px;
   transition: transform 0.1s;
+  border: 5px solid #f4fd05;
 }
 
 .city:hover {
@@ -306,7 +308,7 @@ p {
 font-size: 2rem;
 padding: 30px;
 border-radius: 40px;
-border: 3px solid #151414;
+border: 5px solid #f4fd05;
 font-weight: 600;
 transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -393,11 +395,12 @@ tbody tr:hover {
 
 
 footer {
-  background-color: #ffffff;
+  background-color: #080808;
   padding: 40px 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(190, 27, 27, 0.1);
   border-radius: 10px;
   margin-top: 100px;
+  color: #dddddd;
 }
 
 .footer-content {
@@ -405,28 +408,50 @@ footer {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
+  color: #dddddd;
 }
 
 .footer-logo img {
-  width: 150px;
-  height: auto;
-}
+  width: 250px;
+  height: 230px;
+  margin-top: 80px;
+  box-shadow: 1px 1px 20px yellow;
+  
 
+  
+}
+.footerTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: .2rem;
+  font-weight: 700;
+ 
+  text-decoration: underline;
+  font-style: var(#333);
+  color: #dddddd;
+}
 .footer-links {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   flex-grow: 1;
+  margin-left: 70px;
+  color: #dddddd;
+  
 }
 
 .footer-column {
   margin-right: 20px;
+  font-size: 3rem;
+  color: #dddddd;
+  
 }
 
 .footer-column h4 {
   margin-bottom: 10px;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 36px;
+  font-weight: 800;
+  
 }
 
 .footer-column ul {
@@ -440,8 +465,9 @@ footer {
 
 .footer-column ul li a {
   text-decoration: none;
-  color: #333;
-  font-size: 14px;
+  
+  font-size: 34px;
+  color: #dddddd;
 }
 
 .footer-column ul li a:hover {
@@ -470,6 +496,7 @@ footer {
 .footer-info {
   display: flex;
   align-items: center;
+  
 }
 
 .footer-info a {
@@ -477,6 +504,7 @@ footer {
   text-decoration: none;
   color: #333;
   font-size: 14px;
+  color: #e0e0e0;
 }
 
 .footer-info a:hover {
@@ -486,4 +514,5 @@ footer {
 .footer-info span {
   font-size: 14px;
   color: #777;
+  color: #e0e0e0;
 }
